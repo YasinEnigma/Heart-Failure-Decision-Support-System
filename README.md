@@ -1,2 +1,2 @@
-# Heart-Failure-Decision-Support-System
+# Heart Failure Decision Support System
 Decision support system for Heart Failure Prediction
