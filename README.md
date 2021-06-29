@@ -1,5 +1,4 @@
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fgabbygab1233%2FHeart-Failure-Predictor-Application&count_bg=%23231920&title_bg=%23F76767&icon=&icon_color=%23E7E7E7&title=Heart+Failure+Predictor&edge_flat=false)](https://hits.seeyoufarm.com)
-
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FYasinEnigma%2FHeart-Failure-Decision-Support-System&count_bg=%2379C83D&title_bg=%23555555&icon=visualstudio.svg&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 # Heart failure prediction 
 According to [Wikepedia](https://en.wikipedia.org/wiki/Heart_failure) Heart failure (HF), also known as congestive heart failure (CHF), (congestive) cardiac failure (CCF), and decompensatio cordis, is when the heart is unable to pump sufficiently to maintain blood flow to meet the body tissues' needs for metabolism. Signs and symptoms of heart failure commonly include shortness of breath, excessive tiredness, and leg swelling. The shortness of breath is usually worse with exercise or while lying down, and may wake the person at night. A limited ability to exercise is also a common feature. Chest pain, including angina, does not typically occur due to heart failure.
 
