@@ -17,7 +17,7 @@ ifornia, [Irvine](https://archive.ics.uci.edu/ml/datasets/heart+disease). The Cl
 ![](https://user-images.githubusercontent.com/26917380/123854856-78043300-d934-11eb-902a-4f3e8ee028c2.png)
 
 # Demo
-Live demo: https://heartfailure-predictor.herokuapp.com/
+Live demo: [Click Here](https://heart-failure-yasin.herokuapp.com/)
 
 
 ![](https://user-images.githubusercontent.com/26917380/123855128-c44f7300-d934-11eb-9517-80a7f8702f10.png)
