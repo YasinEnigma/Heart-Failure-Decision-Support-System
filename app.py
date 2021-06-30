@@ -23,7 +23,7 @@ chest_pain_dict = {"Typical Angina": 0, "Atypical Angina": 1,
 ecg_dict = {"Normal": 0, "Wave Abnormality": 1,
             "Left Ventricular Hypertrophy": 2}
 slope_dict = {"Unsloping": 0, "Flat": 1,
-              "Downsampling": 2}
+              "Downsloping": 2}
 thal_dict = {"Normal": 0, "Fixed Defect": 1,
              "Reversible Defect": 2}
 feature_dict = {"Yes": 1, "No": 0}
