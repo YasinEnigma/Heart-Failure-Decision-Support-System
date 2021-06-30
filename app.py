@@ -26,6 +26,7 @@ slope_dict = {"Unsloping": 0, "Flat": 1,
               "Downsloping": 2}
 thal_dict = {"Normal": 0, "Fixed Defect": 1,
              "Reversible Defect": 2}
+fluoroscopy = {"Fluoroscopy-0": 0, "Fluoroscopy-1":1, "Fluoroscopy-2": 2, "Fluoroscopy-3": 3}
 feature_dict = {"Yes": 1, "No": 0}
 
 
@@ -109,15 +110,15 @@ opk = st.sidebar.number_input("Old Peak (mm)", 1, 1000)
 pes = st.sidebar.radio("Peak Exercise Slope", tuple(slope_dict.keys()))
 
 # number of major vessels (0-3) colored by fluoroscopy
-vca = st.sidebar.number_input(
-    "Number of Major Vessels Colored by fluoroscopy", 1, 1000)
+vca = st.sidebar.radio(
+    "Number of Major Vessels Colored by fluoroscopy", tuple(fluoroscopy.keys()))
 
 # Thallium testing
 tha = st.sidebar.radio("Thallium Scan", tuple(thal_dict.keys()))
 
 
 feature_list = [age, get_value(sex, gender_dict), get_value(cpt, chest_pain_dict), rbp, sch,
-                fbs, get_value(res, ecg_dict), mhr, get_value(eia, feature_dict), opk, get_value(pes, slope_dict), vca, get_value(tha, thal_dict)]
+                fbs, get_value(res, ecg_dict), mhr, get_value(eia, feature_dict), opk, get_value(pes, slope_dict), get_value(vca, fluoroscopy), get_value(tha, thal_dict)]
 pretty_result = {"Age": age, "Sex": sex, "Chest Pain Type": cpt, "Resting Blood Pressure (mmHg)": rbp, "Serum Cholesterol (mg/dL)": sch, "Fasting Blood Sugar (mg/dl)": fbs, "Resting Electrocardiographic Results": res,
                  "Maximum Heart Rate Achieved": mhr, "Exercise Induced Angina": eia, "Old Peak (mm)": opk, "Peak Exercise Slope": pes, "Number of Major Vessels Colored by fluoroscopy": vca, "Thallium Scan": tha}
 '''
